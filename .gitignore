@@ -1,22 +1,43 @@
 # Entornos virtuales
 venv/
 */venv/
-**/venv/
+**/venv*/
 .env/
 */.env/
+**/.env/
 
 # Cachés de Python
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
+*$py.class
 
-# IDE y archivos del sistema
-.vscode/
-.DS_Store
+# Archivos temporales / logs
 *.log
+*.tmp
 
-# Archivos de empaquetado
+# Configuración del IDE y del sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Archivos de empaquetado de Python
 build/
 dist/
 *.egg-info/
+.eggs/
+*.manifest
+*.spec
+
+# Archivos de cobertura de pruebas
+.coverage
+htmlcov/
+.tox/
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+
+# Archivos de pip
+pip-log.txt
+pip-delete-this-directory.txt
