@@ -1,8 +1,13 @@
-__pycache__/ 
-*.pyc 
-*.pyo 
-*.egg-info/ 
-.venv/ 
-venv/ 
-dist/ 
-.ruff_cache/ 
+# Ignorar entornos virtuales
+venv/
+env/
+*/venv/
+*/env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.sqlite3
+*.db
+*.log

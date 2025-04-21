@@ -27,4 +27,3 @@ https://asciinema.org/a/rwSYw3o4uQgFDxR2PSq6ORhNe
 
 # Proyecto Brain Games github
 [![Actions Status](https://github.com/CharlesJRM/python-project-140/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/CharlesJRM/python-project-140/actions)
-

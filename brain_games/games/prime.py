@@ -1,6 +1,6 @@
 import random
-
 RULE = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+
 
 def is_prime(number):
     """Función que verifica si un número es primo"""
@@ -11,11 +11,13 @@ def is_prime(number):
             return False
     return True
 
+
 def generate_round():
     """Genera una ronda para el juego"""
     number = random.randint(1, 100)
     correct_answer = 'yes' if is_prime(number) else 'no'
     return str(number), correct_answer
+
 
 def main():
     run_game(RULE, generate_round)

@@ -1,6 +1,6 @@
 import random
-
 RULE = "What is the result of the expression?"
+
 
 def generate_round():
     num1 = random.randint(1, 10)
@@ -17,4 +17,3 @@ def generate_round():
         correct_answer = str(num1 * num2)
 
     return question, correct_answer
-

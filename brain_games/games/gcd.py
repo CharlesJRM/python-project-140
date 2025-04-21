@@ -1,7 +1,7 @@
 import random
 import math  # Usamos math para calcular el MCD
-
 RULE = "Find the greatest common divisor of given numbers."
+
 
 def generate_round():
     num1 = random.randint(1, 100)
