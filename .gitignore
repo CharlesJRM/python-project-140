@@ -1,13 +1,22 @@
-# Ignorar entornos virtuales
+# Entornos virtuales
 venv/
-env/
 */venv/
-*/env/
+**/venv/
+.env/
+*/.env/
+
+# Cachés de Python
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-.Python
-*.sqlite3
-*.db
+
+# IDE y archivos del sistema
+.vscode/
+.DS_Store
 *.log
+
+# Archivos de empaquetado
+build/
+dist/
+*.egg-info/
