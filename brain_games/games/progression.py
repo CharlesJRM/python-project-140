@@ -1,4 +1,6 @@
 import random
+from brain_games.game_logic import run_game
+
 RULE = "What number is missing in the progression?"
 
 
